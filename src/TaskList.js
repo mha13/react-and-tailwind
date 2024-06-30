@@ -28,7 +28,7 @@ const TaskList = () => {
                         </span>
                         <p className="ml-4">{task}</p>
                     </div>
-                    <svg onClick={() => removeTask(index)} className="ml-2 h-6 w-6 flex-none fill-orange-100 stroke-orange-500 stroke-2 hover:animate-pulse" stroke-linecap="round" stroke-linejoin="round">
+                    <svg onClick={() => removeTask(index)} className="ml-2 h-6 w-6 flex-none fill-orange-100 stroke-orange-500 stroke-2 hover:animate-pulse" strokeLinecap="round" strokeLinejoin="round">
                         <circle cx="12" cy="12" r="11"></circle>
                         <path d="m8 13 2.165 2.165a1 1 0 0 0 1.521-.126L16 9" fill="none"></path>
                     </svg>
