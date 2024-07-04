@@ -1,6 +1,5 @@
 import ReducerFun from "./ReducerFun"
 import TaskList from "./TaskList"
-import TaskProvider from "./TaskProvider"
 
 const Component1 = () => {
     return (
@@ -12,8 +11,6 @@ const Component1 = () => {
                         <p>A Practice of <code className="text-sm font-bold text-gray-900" >React.js</code> and <code className="text-sm font-bold text-gray-900" >Tailwind.css</code> :<br />Here are an <strong>TO DO LIST</strong></p>
                         
                             <TaskList />
-                            <TaskList />
-                        
 
                         <p>Perfect for learning how the framework works, prototyping a new idea, or creating a demo to share online.</p>
                     </div>

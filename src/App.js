@@ -4,6 +4,7 @@ import Component1 from './Component1';
 import Component2 from './Component2';
 import { useState } from 'react';
 import TaskProvider from './TaskProvider';
+import Coins from './Coins';
 function App() {
 
   const styleApp = {
@@ -49,8 +50,9 @@ function App() {
             <Route path='/' element={<Component1 />} />
             <Route path='/donate' element={<Component2 />} />
           </Routes>
+          <Coins />
         </div>
-        </TaskProvider>
+      </TaskProvider>
     </div>
   );
 }
